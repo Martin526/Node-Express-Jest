@@ -98,6 +98,7 @@ describe('Profiles test', () => {
     const profile: Profile = new ProfileModel({
       age: 30,
       lastName: 'Cabrera',
+      linkedinUrl: 'https://www.linkedin.com/in/martin-nicolas-gonzalez/',
       name: 'Fabian',
       title: 'Principal Software developer'
     });
